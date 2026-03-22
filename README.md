@@ -1,21 +1,26 @@
- SQL-Basics TO Advance Practice 
+# SQL Practice 
 
-This repository contains my "SQL practice and Data Engineering exercises", including daily queries, subqueries, window functions, and mini-projects.
+Hi, I'm Abhinav 
+This repository contains my SQL learning and practice for Data Engineering.
 
- Topics Covered
+  Topics Covered
 
-- **Basics:** SELECT, JOIN, GROUP BY, HAVING,ORDER BY,LIKE,LIMIT etc.
-- **Subqueries:** Nested queries, correlated subqueries
-- **Window Functions:** ROW_NUMBER, RANK, DENSE_RANK, SUM() OVER, etc.
-- **Mini Projects:** ETL pipelines, data transformation scripts.
+* Basic Queries
+* Joins
+* Subqueries
+* Window Functions
+
+ Practice Type
+
+I solved real-world business problems like:
+
+* Employee salary analysis
+* Department-wise insights
+* Ranking & analytics using window functions
+
+ Tools
+
+* MySQL
 
 
-## Daily / Weekly Updates
 
-I commit **daily SQL exercises** and **weekly mini-projects**, continuously improving my Data Engineering skills.
-
-## Skills Covered
-
-- SQL: Queries, Subqueries,Joins, Window Functions,CTEs
-- Python: ETL scripts, data transformation
-- Data Engineering fundamentals: Data pipelines, Data Warehousing.
