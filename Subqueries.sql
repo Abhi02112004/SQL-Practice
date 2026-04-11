@@ -81,3 +81,31 @@ WHERE department =
 FROM employees
 WHERE name='Karan');
 
+SELECT *
+FROM employees
+WHERE salary>
+(SELECT AVG(salary) FROM employees);
+
+SELECT *
+FROM employees
+WHERE salary<
+(SELECT AVG(salary) FROM employees);
+
+SELECT *
+FROM customers AS c
+WHERE customer_id IN 
+(SELECT customer_id FROM orders);
+
+
+SELECT emp_name 
+FROM employees 
+WHERE salary =(
+SELECT MAX(salary)
+FROM employees
+WHERE salary<>(
+SELECT MAX(salary) FROM employees));
+
+
+
+
+
